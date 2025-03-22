@@ -1,23 +1,69 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Gym</title>
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
-    <header>
-        <div class="logo__contaier">
-            <img src="..\public\gym_logo.png" alt="logo">
-        </div>
-        <nav>
-            <div class="nav__container">
-                <div class="home__button">
-                    <button>Home</button>
-                </div>
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="#" class="nav__logo">
+                <img src="..\public\gym_logo.png" alt="logo">
+            </a>
+            <div class="nav__menu">
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a href="#home" class="nav__link">Home</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#program" class="nav__link">Program</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#choose" class="nav__link">Choose Us</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#pricing" class="nav__link">Pricing</a>
+                    </li>
+
+                    <div class="nav__link">
+                        <a href="#footer" class="button nav__button">Register</a>
+                    </div>
+                </ul>
+
+            </div>
+            <div class="nav__close" id="nav-close">
+                <i class="ri-close-line"></i>
+            </div>
+
+            <!-- toggle button -->
+            <div class="nav__toggle" id="nav-toggle">
+                <i class="ri-menu-line"></i>
             </div>
         </nav>
+        <div class=""></div>
     </header>
-    <main></main>
+    <main>
+        <section class="home section" id="home">
+            <div class="home__container conatiner grid">
+                <div class="home__data">
+                    <h2 class="home__subtitle">MAKE YOUR</h2>
+                    <h1 class="home__title">BODY SHAPE</h1>
+                    <p class="home__description">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Error quidem ducimus reprehenderit
+                        optio labore nisi itaque similique culpa mollitia cupiditate atque perspiciatis,
+                        totam ipsam doloremque laboriosam animi eveniet quisquam voluptatem!
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section class="logos section"></section>
+    </main>
 </body>
+
 </html>
